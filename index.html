@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <h1>Ketan Codes</h1>
+    <h2>Rock  Paper  Scissor</h2>
+    <div id="webcam-container">
+
+    </div>
+    <div id="loader"></div>
+    <div id="imgs" class="imgs">
+        <p class="player-choice">your choice:</p>
+        <figure class="choice " id="rock"><img src="./assets/rockimg.png" alt=""></figure>
+        <figure class="choice " id="paper"><img src="./assets/paperimg.png" alt=""></figure>
+        <figure class="choice " id="scissors"><img src="./assets/scissorimg.png" alt=""></figure>
+    </div>
+    <!-- <p>make rock paper scissor gesture to start</p> -->
+    
+    <div id="countdown"></div>
+<button type="button" class="button" onclick="countdownAndCelebrate();
+">Start Game</button>
+<div id="label-container"></div>
+<!-- <div id="result-container"></div> -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+<script src="./index.js"></script>
+<script src="./game.js"></script>
+</body>
+</html>
