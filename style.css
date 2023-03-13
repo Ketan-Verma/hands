@@ -76,8 +76,6 @@ img {
     100% { transform: rotate(360deg); }
   }
   .active{
-    /* background-color: #f39c12; */
-    /* filter:drop-shadow( 1px 1px 20px rgb(0, 255, 0)); */
     outline: 5px solid lightgreen;
     border-radius: 5px;
 }
